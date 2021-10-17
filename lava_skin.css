@@ -1740,7 +1740,6 @@ ul.forums {
 	transition-duration: 360ms;
 	 }
 ul.forums dl.icon dd.dterm > div {
-	margin-left: 63px !important;
 	 }
 li.header dl.icon {
 	min-height: 0;
@@ -1780,11 +1779,11 @@ li.row:hover {
 ul.topiclist dd {
 	display: block;
 	float: left;
-	padding: 18px 0;
+	padding: 18px;
 	 }
 ul.topiclist li.header dl dd {
 	border: none;
-	width: 104px;
+	width: 118px;
 	 }
 ul.topiclist dd.searchby span, ul.topiclist dd.info span, ul.topiclist dd.time span, dd.redirect span, dd.moderation span {
 	display: block;
@@ -2081,9 +2080,8 @@ div.mes-txt ul {
 /* dl dt dd----------------------------------------------*/
 dd.lastpost {
 	font-size: 1.3rem;
-	line-height: 20px;
+	line-height: 10px;
 	padding: 18px !important;
-	width: 32%;
 	 }
 dd.lastpost a {
 	font-weight: 500;
