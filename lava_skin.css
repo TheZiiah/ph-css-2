@@ -1403,7 +1403,7 @@ fieldset.polls dd {
 	 }
 #site-title,#site-title h1 {
 	color: #ffffff;
-	display: block;
+	display: none;
 	font-family: ;
 	font-size: 30px;
 	font-weight: 500;
@@ -2080,7 +2080,7 @@ div.mes-txt ul {
 /* dl dt dd----------------------------------------------*/
 dd.lastpost {
 	font-size: 1.3rem;
-	line-height: 10px;
+	line-height: 17px;
 	padding: 18px !important;
 	 }
 dd.lastpost a {
