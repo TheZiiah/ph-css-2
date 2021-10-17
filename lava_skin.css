@@ -1,5 +1,495 @@
 
 /*Forumotion - Desktop Theme--------------------------------------Version: 0.0.1*/ 
+#fa_toolbar {
+    background-color: #82366b;
+    color: #FFF;
+    font-family: Helvetica, Verdana, Arial;
+    font-size: 16px;
+    height: 42px;
+    left: 0;
+    z-index: 999;
+	 }
+#fa_toolbar :link, #fa_toolbar :visited {
+	 color: #FFFFFF;
+	 text-decoration: none;
+	 }
+#fa_toolbar a:hover {
+	 text-decoration: underline;
+	 }
+#fa_toolbar a:link, #fa_toolbar a:visited, #fa_toolbar a:hover, #fa_toolbar a:active {
+	 border:1px solid transparent;
+	 border:none;
+	 }
+.fa_tbMainElement, .fa_tbMainElement a, #fa_show {
+	 display: inline-block !important;
+	 vertical-align: middle;
+	 }
+#fa_toolbar #fa_icon {
+	 display: inline-block !important;
+	 visibility: visible !important;
+	 background-repeat: no-repeat;
+	 background-image: url('https://2img.net/i/fa/i/toolbar/pa0.png');
+	 background-size: 30px;
+	 width: 30px;
+	 height: 30px;
+	 }
+#fa_toolbar #fa_fb, #fa_toolbar #fa_twitter, #fa_toolbar #fa_gp, #fa_toolbar #fa_mail, #fa_toolbar #fa_rss, #fa_toolbar #fa_hide, #fa_toolbar_hidden #fa_show {
+	 background-image: url('https://2img.net/i/fa/i/toolbar/toolbar.png');
+	 width: 30px;
+	 height: 30px;
+	 cursor: pointer;
+	 }
+#fa_left {
+	 display: inline-block !important;
+	 visibility: visible !important;
+	 width: auto !important;
+	 height: auto !important;
+	 line-height: 30px !important;
+	 }
+#fa_icon, #fa_toolbar #fa_service {
+	 color: #ffffff;
+	 }
+#fa_toolbar #fa_service {
+	 display: inline-block !important;
+	 visibility: visible !important;
+	 text-decoration: none !important;
+	 }
+#fa_toolbar #fa_service:hover[href] {
+	 text-decoration: underline !important;
+	 }
+#fa_search {
+	 margin-left: 20px;
+	 height: 36px;
+	 position: relative;
+	 }
+#fa_search form {
+	 margin: 0;
+	 padding:0;
+	 display:inline;
+	 }
+#fa_search #fa_magnifier {
+	 background-image: none;
+	 right: 0;
+	 top: 0;
+	 text-align: center;
+	 width: 36px;
+	 height: 36px;
+	 font-size: 1.6rem;
+	 cursor: pointer;
+	 position : absolute;
+	 }
+#fa_search #fa_magnifier:before {
+	 content: "\f2f5";
+	 display: inline-block;
+	 font-family: "Ionicons";
+	 speak: none;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-variant: normal;
+	 text-transform: none;
+	 text-rendering: auto;
+	 line-height: 36px;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+	 }
+#fa_search #fa_textarea {
+	 text-indent: 30px !important;
+	 width: 200px;
+	 height: 33px;
+	 padding: 0px;
+	 border: 0px;
+	 margin-top: 0;
+	 border-radius: 0;
+	 line-height: 24px;
+	background-color: transparent;
+	 border-bottom: 1px solid #666E74;
+	 text-indent: 0 !important;
+	 color: #FFF;
+	 }
+#fa_share {
+	 margin-left: 20px;
+	 font-size: 16px;
+	 line-height: 30px !important;
+	 }
+#fa_share a {
+	 display: block;
+	 float: left;
+	 font-size: 13px;
+	 height: 30px!important;
+	 line-height: 30px;
+	 cursor: pointer;
+	 text-align: center;
+	 width: 30px!important;
+	 border-radius: 3px;
+	 margin: 0 6px 0 0;
+	 background-color: #3E464C;
+	 line-height: 30px;
+	 background-image: none !important;
+	 }
+#fa_share a:before {
+	 display: inline-block;
+	 font-family: "Ionicons";
+	 speak: none;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-variant: normal;
+	 text-transform: none;
+	 text-rendering: auto;
+	 line-height: 30px;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+	 }
+#fa_share_text {
+	 cursor: default;
+	 color: #ffffff;
+	 text-decoration: none !important;
+	 font-size: 1.3rem;
+	 float: left;
+	 margin-right: 9px;
+	 }
+#fa_fb {
+	 margin-left: 10px;
+	 background-position: -60px 0px;
+	 }
+#fa_fb:before {
+	 content: "\f231";
+	 }
+#fa_fb:hover {
+	 background-color: #5f84cf;
+	 color: #FFF }
+#fa_twitter {
+	 background-position: -90px 0px;
+	 }
+#fa_twitter:before {
+	 content: "\f243";
+	 }
+#fa_twitter:hover {
+	 background-color: #1DA1F2;
+	 color: #FFF }
+#fa_gp {
+	 background-position: -120px 0px;
+	 }
+#fa_gp:before {
+	 content: "\f235";
+	 }
+#fa_gp:hover {
+	 background-color: #DD5044;
+	 color: #FFF }
+#fa_mail {
+	 background-position: -150px 0px;
+	 }
+#fa_mail:before {
+	 content: "\f2eb";
+	 }
+#fa_mail:hover {
+	 background-color: #F8CD33;
+	 color: #FFF }
+#fa_rss {
+	 background-position: -180px 0px;
+	 }
+#fa_rss:before {
+	 content: "\f23d";
+	 }
+#fa_rss:hover {
+	 background-color: #FB7629;
+	 color: #FFF }
+#fa_right {
+	 float: right;
+	 font-size: 1.3rem;
+	 }
+#fa_right a.rightHeaderLink, #fa_menu #fa_welcome {
+	 margin-left: 18px;
+	 margin-top: 3px;
+	 vertical-align: top;
+	 line-height: 30px;
+	 color:#ffffff;
+	 border-radius: 3px;
+	 padding: 0 9px;
+	 }
+#fa_right span.rightHeaderLink {
+	 display:inline-block;
+	 margin-left: 1px;
+	 vertical-align: top;
+	 line-height: 30px;
+	 color:#ffffff;
+	 }
+#fa_right #fa_notifications {
+	 line-height: 30px;
+	 padding: 0px 5px;
+	 color: #ffffff;
+	 }
+#fa_hide {
+	 background-position: -210px 0px;
+	 }
+#fa_menu {
+	 display: inline-block;
+	 }
+#fa_welcome, #fa_menulist {
+	 direction: ltr;
+	 }
+#fa_right #fa_welcome:hover, #fa_toolbar #fa_right #fa_notifications:hover {
+	 cursor: pointer;
+	 }
+#fa_right.notification #fa_menu #fa_welcome {
+	 color: #ffffff;
+	 }
+#fa_right #fa_menu ul, #fa_right.notification #fa_menu ul {
+	 display: none;
+	 }
+#fa_right.welcome #fa_menu #fa_welcome {
+	 color: #333;
+	 background-color: #fff;
+	 }
+#fa_right.welcome #fa_menu ul {
+	 display: block;
+	 }
+#fa_menu:hover :visited, #fa_toolbar > #fa_right.notification > #fa_notifications {
+	 color: #333333;
+	 background-color: #FFFFFF;
+	 }
+#fa_toolbar #fa_right .fa_separator {
+	 width: auto;
+	 height: 1px;
+	 margin: 0 -18px;
+	 padding: 0px;
+	 background-color: rgba(0, 0, 0, 0.1);
+	 text-align: center;
+	 }
+#fa_toolbar_hidden {
+	 position: absolute;
+	 width: 30px;
+	 height: 30px;
+	 right: 18px;
+	 margin-top: -84px;
+	 background-color: #2c353b !important;
+	 border-radius: 3px;
+	 z-index: 20002;
+	 top: 6px !important;
+	 }
+#fa_show {
+	 background-position: -240px 0px;
+	 }
+#fa_toolbar #fa_right #fa_notifications #notif_unread {
+	 display: none;
+	 margin-left: 0.5em;
+	 }
+#fa_toolbar #fa_right #fa_notifications.unread #notif_unread {
+	 display: inline;
+	 }
+#fa_toolbar #fa_right #notif_list {
+	 border-radius: 0 0 3px 3px;
+	 border: none;
+	 font-size: 1.3rem;
+	 display: none;
+	 position: absolute;
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 background-color: #FFFFFF;
+	 z-index: 10000;
+	 box-shadow: 0 0 9px rgba(0, 0, 0, 0.3), 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	 top: 42px;
+	 }
+#fa_toolbar #fa_right.notification #notif_list {
+	 display: block;
+	;
+	 }
+#fa_toolbar #fa_right #notif_list li {
+	 margin: 0;
+	 font-size: 1em;
+	 padding: 0 18px 9px;
+	 color: #333;
+	 line-height: 1.5;
+	 display:block;
+	 }
+#fa_toolbar #fa_right #notif_list li .contentText {
+	 float:left;
+	 width:27em;
+	 height: auto !important;
+	 overflow: hidden;
+	 }
+#fa_toolbar #fa_right #notif_list li .contentText a {
+	 color: #00569C !important;
+	 text-decoration: none !important;
+	 vertical-align: baseline;
+	 
+/*max-width: 150px;
+	 overflow: hidden;
+	 white-space: nowrap;
+	 text-overflow: ellipsis;
+	 */
+}
+#fa_toolbar #fa_right #notif_list li:first-child {
+	 padding-top: 18px;
+	 }
+#fa_toolbar #fa_right #notif_list li:first-child hr {
+	 display: none;
+	 }
+#fa_toolbar #fa_right #notif_list li .content {
+	 width: 30em;
+	 
+/*height: 2.4em;
+	*/
+ min-height: auto;
+	 margin: 0;
+	 display: block;
+	 overflow: visible;
+	 vertical-align: top;
+	 color: inherit !important;
+	 line-height: inherit !important;
+	 }
+#fa_toolbar #fa_right #notif_list li .content::after {
+	 clear: both;
+	 display: block;
+	 content: "";
+	 }
+#fa_toolbar #fa_right #notif_list li a.delete {
+	 width: 19px;
+	 height: 19px;
+	 text-align: center;
+	 color: #FF4F42;
+	 background: transparent none no-repeat -274px 50%;
+	 float:right;
+	 }
+#fa_toolbar #fa_right #notif_list li a.delete:before {
+	 content: "\f12a";
+	 display: inline-block;
+	 font-family: "Ionicons";
+	 speak: none;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-variant: normal;
+	 text-transform: none;
+	 text-rendering: auto;
+	 line-height: 19px;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+	 }
+#fa_toolbar #fa_right #notif_list li hr {
+	 margin: 0 -18px 9px;
+	 border: 0 solid rgba(0, 0, 0, 0.1);
+	 border-top-width: 1px;
+	 }
+#fa_toolbar #fa_right #notif_list li.unread {
+	 font-weight: bold;
+	 background-color: #e5e5e5;
+	 }
+#fa_toolbar #fa_right #notif_list li.see_all {
+	 color: #fff;
+	 font-size: 1.3rem;
+	 background-color: #333;
+	 border-radius: 0 0 3px 3px;
+	 padding: 12px 18px !important;
+	 text-align: center;
+	 }
+#fa_toolbar #fa_right #notif_list li.see_all a {
+	 color: #fff;
+	 width:100%;
+	 }
+#fa_toolbar #live_notif {
+	 width: 330px;
+	 position: absolute;
+	 }
+#fa_toolbar #live_notif .fa_notification {
+	 background-color: #333;
+	 opacity: 0.8;
+	 border-radius: 5px;
+	 padding: 10px;
+	 }
+#fa_toolbar #live_notif .fa_notification .content {
+	 padding-left: 40px;
+	 display: inline-block;
+	 background-image: url('https://2img.net/i/fa/notifications/notifications.png');
+	 background-repeat: no-repeat;
+	 height: 32px;
+	 font-size : 11px;
+	 color : #fff;
+	 overflow : hidden }
+#fa_toolbar #live_notif .fa_notification a {
+	 text-decoration: underline !important;
+	 vertical-align: baseline;
+	 
+/*max-width: 150px;
+	 overflow: hidden;
+	 white-space: nowrap;
+	 text-overflow: ellipsis;
+	 */
+}
+.fa_fix {
+	 position:fixed !important;
+	position: absolute;
+	 
+/*ie6 and above*/
+top: 0;
+	right: 0;
+	 }
+#fa_toolbar .fa_hide {
+	 display: none !important;
+	 }
+#fa_ranktitle {
+	 width: 120px;
+	 text-align: center;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+	 white-space: nowrap;
+	 font-weight: 500;
+	 margin-top: 9px;
+	 }
+#fa_ranktitle:hover {
+	 text-decoration: none !important;
+	 color: #333333;
+	 }
+#fa_usermenu {
+	 position: absolute;
+	 right: 25px;
+	 width: 120px;
+	 padding: 10px 20px 10px 10px;
+	 color: #333333;
+	 font-size: 12px;
+	 text-align: center;
+	 }
+#fa_usermenu table {
+	 width: 100%;
+	 }
+#fa_usermenu td {
+	 display: inline-block;
+	 padding: 0px;
+	 margin: 0;
+	 line-height: 1.526;
+	 }
+#fa_usermenu td.first {
+	 text-align: right;
+	 }
+#fa_usermenu td.bold {
+	 font-weight:500;
+	 text-align: left;
+	 padding-left: 6px;
+	 }
+#fa_usermenu img {
+	 width: 120px;
+	 max-width: 120px;
+	 max-height: 120px;
+	 border-radius: 120px;
+	 border: 3px solid #FFF;
+	 box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.3);
+	 }
+#fa_menulist {
+	 display: none;
+	 position: absolute;
+	 list-style-type: none;
+	 margin: 0px;
+	 padding: 0px 10px;
+	 background-color: #FFFFFF;
+	 min-width: 175px;
+	 width: auto;
+	 border: 1px solid #333333;
+	 line-height: 32px;
+	 border-top: 0px solid #FFFFFF;
+	 z-index: 10000;
+	 }
+#fa_menulist :link, #fa_menulist :visited {
+	 color: #00569C !important;
+	 }
 html, body {
 	background-attachment: fixed;
 	background-color: #e9ebed;
@@ -8263,499 +8753,4 @@ blockquote.fa_embed iframe {
 	 }
 .fa_toolbar_M_Sized {
 	 min-width: 519px;
-	 }
-#fa_toolbar {
-    background-color: #82366b;
-    color: #FFF;
-    font-family: Helvetica, Verdana, Arial;
-    font-size: 16px;
-    height: 42px;
-    left: 0;
-    z-index: 999;
-	 }
-#fa_toolbar :link, #fa_toolbar :visited {
-	 color: #FFFFFF;
-	 text-decoration: none;
-	 }
-#fa_toolbar a:hover {
-	 text-decoration: underline;
-	 }
-#fa_toolbar a:link, #fa_toolbar a:visited, #fa_toolbar a:hover, #fa_toolbar a:active {
-	 border:1px solid transparent;
-	 border:none;
-	 }
-.fa_tbMainElement, .fa_tbMainElement a, #fa_show {
-	 display: inline-block !important;
-	 vertical-align: middle;
-	 }
-#fa_toolbar #fa_icon {
-	 display: inline-block !important;
-	 visibility: visible !important;
-	 background-repeat: no-repeat;
-	 background-image: url('https://2img.net/i/fa/i/toolbar/pa0.png');
-	 background-size: 30px;
-	 width: 30px;
-	 height: 30px;
-	 }
-#fa_toolbar #fa_fb, #fa_toolbar #fa_twitter, #fa_toolbar #fa_gp, #fa_toolbar #fa_mail, #fa_toolbar #fa_rss, #fa_toolbar #fa_hide, #fa_toolbar_hidden #fa_show {
-	 background-image: url('https://2img.net/i/fa/i/toolbar/toolbar.png');
-	 width: 30px;
-	 height: 30px;
-	 cursor: pointer;
-	 }
-#fa_left {
-	 display: inline-block !important;
-	 visibility: visible !important;
-	 width: auto !important;
-	 height: auto !important;
-	 line-height: 30px !important;
-	 }
-#fa_icon, #fa_toolbar #fa_service {
-	 color: #ffffff;
-	 }
-#fa_toolbar #fa_service {
-	 display: inline-block !important;
-	 visibility: visible !important;
-	 text-decoration: none !important;
-	 }
-#fa_toolbar #fa_service:hover[href] {
-	 text-decoration: underline !important;
-	 }
-#fa_search {
-	 margin-left: 20px;
-	 height: 36px;
-	 position: relative;
-	 }
-#fa_search form {
-	 margin: 0;
-	 padding:0;
-	 display:inline;
-	 }
-#fa_search #fa_magnifier {
-	 background-image: none;
-	 right: 0;
-	 top: 0;
-	 text-align: center;
-	 width: 36px;
-	 height: 36px;
-	 font-size: 1.6rem;
-	 cursor: pointer;
-	 position : absolute;
-	 }
-#fa_search #fa_magnifier:before {
-	 content: "\f2f5";
-	 display: inline-block;
-	 font-family: "Ionicons";
-	 speak: none;
-	 font-style: normal;
-	 font-weight: normal;
-	 font-variant: normal;
-	 text-transform: none;
-	 text-rendering: auto;
-	 line-height: 36px;
-	 -webkit-font-smoothing: antialiased;
-	 -moz-osx-font-smoothing: grayscale;
-	 }
-#fa_search #fa_textarea {
-	 text-indent: 30px !important;
-	 width: 200px;
-	 height: 33px;
-	 padding: 0px;
-	 border: 0px;
-	 margin-top: 0;
-	 border-radius: 0;
-	 line-height: 24px;
-	background-color: transparent;
-	 border-bottom: 1px solid #666E74;
-	 text-indent: 0 !important;
-	 color: #FFF;
-	 }
-#fa_share {
-	 margin-left: 20px;
-	 font-size: 16px;
-	 line-height: 30px !important;
-	 }
-#fa_share a {
-	 display: block;
-	 float: left;
-	 font-size: 13px;
-	 height: 30px!important;
-	 line-height: 30px;
-	 cursor: pointer;
-	 text-align: center;
-	 width: 30px!important;
-	 border-radius: 3px;
-	 margin: 0 6px 0 0;
-	 background-color: #3E464C;
-	 line-height: 30px;
-	 background-image: none !important;
-	 }
-#fa_share a:before {
-	 display: inline-block;
-	 font-family: "Ionicons";
-	 speak: none;
-	 font-style: normal;
-	 font-weight: normal;
-	 font-variant: normal;
-	 text-transform: none;
-	 text-rendering: auto;
-	 line-height: 30px;
-	 -webkit-font-smoothing: antialiased;
-	 -moz-osx-font-smoothing: grayscale;
-	 }
-#fa_share_text {
-	 cursor: default;
-	 color: #ffffff;
-	 text-decoration: none !important;
-	 font-size: 1.3rem;
-	 float: left;
-	 margin-right: 9px;
-	 }
-#fa_fb {
-	 margin-left: 10px;
-	 background-position: -60px 0px;
-	 }
-#fa_fb:before {
-	 content: "\f231";
-	 }
-#fa_fb:hover {
-	 background-color: #5f84cf;
-	 color: #FFF }
-#fa_twitter {
-	 background-position: -90px 0px;
-	 }
-#fa_twitter:before {
-	 content: "\f243";
-	 }
-#fa_twitter:hover {
-	 background-color: #1DA1F2;
-	 color: #FFF }
-#fa_gp {
-	 background-position: -120px 0px;
-	 }
-#fa_gp:before {
-	 content: "\f235";
-	 }
-#fa_gp:hover {
-	 background-color: #DD5044;
-	 color: #FFF }
-#fa_mail {
-	 background-position: -150px 0px;
-	 }
-#fa_mail:before {
-	 content: "\f2eb";
-	 }
-#fa_mail:hover {
-	 background-color: #F8CD33;
-	 color: #FFF }
-#fa_rss {
-	 background-position: -180px 0px;
-	 }
-#fa_rss:before {
-	 content: "\f23d";
-	 }
-#fa_rss:hover {
-	 background-color: #FB7629;
-	 color: #FFF }
-#fa_right {
-	 float: right;
-	 font-size: 1.3rem;
-	 }
-#fa_right a.rightHeaderLink, #fa_menu #fa_welcome {
-	 margin-left: 18px;
-	 margin-top: 3px;
-	 vertical-align: top;
-	 line-height: 30px;
-	 color:#ffffff;
-	 border-radius: 3px;
-	 padding: 0 9px;
-	 }
-#fa_right span.rightHeaderLink {
-	 display:inline-block;
-	 margin-left: 1px;
-	 vertical-align: top;
-	 line-height: 30px;
-	 color:#ffffff;
-	 }
-#fa_right #fa_notifications {
-	 line-height: 30px;
-	 padding: 0px 5px;
-	 color: #ffffff;
-	 }
-#fa_hide {
-	 background-position: -210px 0px;
-	 }
-#fa_menu {
-	 display: inline-block;
-	 }
-#fa_welcome, #fa_menulist {
-	 direction: ltr;
-	 }
-#fa_right #fa_welcome:hover, #fa_toolbar #fa_right #fa_notifications:hover {
-	 cursor: pointer;
-	 }
-#fa_right.notification #fa_menu #fa_welcome {
-	 color: #ffffff;
-	 }
-#fa_right #fa_menu ul, #fa_right.notification #fa_menu ul {
-	 display: none;
-	 }
-#fa_right.welcome #fa_menu #fa_welcome {
-	 color: #333;
-	 background-color: #fff;
-	 }
-#fa_right.welcome #fa_menu ul {
-	 display: block;
-	 }
-#fa_menu:hover :visited, #fa_toolbar > #fa_right.notification > #fa_notifications {
-	 color: #333333;
-	 background-color: #FFFFFF;
-	 }
-#fa_toolbar #fa_right .fa_separator {
-	 width: auto;
-	 height: 1px;
-	 margin: 0 -18px;
-	 padding: 0px;
-	 background-color: rgba(0, 0, 0, 0.1);
-	 text-align: center;
-	 }
-#fa_toolbar_hidden {
-	 position: absolute;
-	 width: 30px;
-	 height: 30px;
-	 right: 18px;
-	 margin-top: -84px;
-	 background-color: #2c353b !important;
-	 border-radius: 3px;
-	 z-index: 20002;
-	 top: 6px !important;
-	 }
-#fa_show {
-	 background-position: -240px 0px;
-	 }
-#fa_toolbar #fa_right #fa_notifications #notif_unread {
-	 display: none;
-	 margin-left: 0.5em;
-	 }
-#fa_toolbar #fa_right #fa_notifications.unread #notif_unread {
-	 display: inline;
-	 }
-#fa_toolbar #fa_right #notif_list {
-	 border-radius: 0 0 3px 3px;
-	 border: none;
-	 font-size: 1.3rem;
-	 display: none;
-	 position: absolute;
-	 list-style-type: none;
-	 margin: 0;
-	 padding: 0;
-	 background-color: #FFFFFF;
-	 z-index: 10000;
-	 box-shadow: 0 0 9px rgba(0, 0, 0, 0.3), 0 0 1px 1px rgba(0, 0, 0, 0.2);
-	 top: 42px;
-	 }
-#fa_toolbar #fa_right.notification #notif_list {
-	 display: block;
-	;
-	 }
-#fa_toolbar #fa_right #notif_list li {
-	 margin: 0;
-	 font-size: 1em;
-	 padding: 0 18px 9px;
-	 color: #333;
-	 line-height: 1.5;
-	 display:block;
-	 }
-#fa_toolbar #fa_right #notif_list li .contentText {
-	 float:left;
-	 width:27em;
-	 height: auto !important;
-	 overflow: hidden;
-	 }
-#fa_toolbar #fa_right #notif_list li .contentText a {
-	 color: #00569C !important;
-	 text-decoration: none !important;
-	 vertical-align: baseline;
-	 
-/*max-width: 150px;
-	 overflow: hidden;
-	 white-space: nowrap;
-	 text-overflow: ellipsis;
-	 */
-}
-#fa_toolbar #fa_right #notif_list li:first-child {
-	 padding-top: 18px;
-	 }
-#fa_toolbar #fa_right #notif_list li:first-child hr {
-	 display: none;
-	 }
-#fa_toolbar #fa_right #notif_list li .content {
-	 width: 30em;
-	 
-/*height: 2.4em;
-	*/
- min-height: auto;
-	 margin: 0;
-	 display: block;
-	 overflow: visible;
-	 vertical-align: top;
-	 color: inherit !important;
-	 line-height: inherit !important;
-	 }
-#fa_toolbar #fa_right #notif_list li .content::after {
-	 clear: both;
-	 display: block;
-	 content: "";
-	 }
-#fa_toolbar #fa_right #notif_list li a.delete {
-	 width: 19px;
-	 height: 19px;
-	 text-align: center;
-	 color: #FF4F42;
-	 background: transparent none no-repeat -274px 50%;
-	 float:right;
-	 }
-#fa_toolbar #fa_right #notif_list li a.delete:before {
-	 content: "\f12a";
-	 display: inline-block;
-	 font-family: "Ionicons";
-	 speak: none;
-	 font-style: normal;
-	 font-weight: normal;
-	 font-variant: normal;
-	 text-transform: none;
-	 text-rendering: auto;
-	 line-height: 19px;
-	 -webkit-font-smoothing: antialiased;
-	 -moz-osx-font-smoothing: grayscale;
-	 }
-#fa_toolbar #fa_right #notif_list li hr {
-	 margin: 0 -18px 9px;
-	 border: 0 solid rgba(0, 0, 0, 0.1);
-	 border-top-width: 1px;
-	 }
-#fa_toolbar #fa_right #notif_list li.unread {
-	 font-weight: bold;
-	 background-color: #e5e5e5;
-	 }
-#fa_toolbar #fa_right #notif_list li.see_all {
-	 color: #fff;
-	 font-size: 1.3rem;
-	 background-color: #333;
-	 border-radius: 0 0 3px 3px;
-	 padding: 12px 18px !important;
-	 text-align: center;
-	 }
-#fa_toolbar #fa_right #notif_list li.see_all a {
-	 color: #fff;
-	 width:100%;
-	 }
-#fa_toolbar #live_notif {
-	 width: 330px;
-	 position: absolute;
-	 }
-#fa_toolbar #live_notif .fa_notification {
-	 background-color: #333;
-	 opacity: 0.8;
-	 border-radius: 5px;
-	 padding: 10px;
-	 }
-#fa_toolbar #live_notif .fa_notification .content {
-	 padding-left: 40px;
-	 display: inline-block;
-	 background-image: url('https://2img.net/i/fa/notifications/notifications.png');
-	 background-repeat: no-repeat;
-	 height: 32px;
-	 font-size : 11px;
-	 color : #fff;
-	 overflow : hidden }
-#fa_toolbar #live_notif .fa_notification a {
-	 text-decoration: underline !important;
-	 vertical-align: baseline;
-	 
-/*max-width: 150px;
-	 overflow: hidden;
-	 white-space: nowrap;
-	 text-overflow: ellipsis;
-	 */
-}
-.fa_fix {
-	 position:fixed !important;
-	position: absolute;
-	 
-/*ie6 and above*/
-top: 0;
-	right: 0;
-	 }
-#fa_toolbar .fa_hide {
-	 display: none !important;
-	 }
-#fa_ranktitle {
-	 width: 120px;
-	 text-align: center;
-	 overflow: hidden;
-	 text-overflow: ellipsis;
-	 white-space: nowrap;
-	 font-weight: 500;
-	 margin-top: 9px;
-	 }
-#fa_ranktitle:hover {
-	 text-decoration: none !important;
-	 color: #333333;
-	 }
-#fa_usermenu {
-	 position: absolute;
-	 left: 0;
-	 top: 0;
-	 bottom: 0;
-	 width: 180px;
-	  padding: 18px;
-	 color: #333333;
-	 font-size: 1.3rem;
-	 text-align: center;
-	 border-radius: 0 0 0 3px;
-	 background-color: rgba(0, 0, 0, 0.03);
-	 border-right: 1px solid rgba(0, 0, 0, 0.06);
-	 }
-#fa_usermenu table {
-	 width: 100%;
-	 }
-#fa_usermenu td {
-	 display: inline-block;
-	 padding: 0px;
-	 margin: 0;
-	 line-height: 1.526;
-	 }
-#fa_usermenu td.first {
-	 text-align: right;
-	 }
-#fa_usermenu td.bold {
-	 font-weight:500;
-	 text-align: left;
-	 padding-left: 6px;
-	 }
-#fa_usermenu img {
-	 width: 120px;
-	 max-width: 120px;
-	 max-height: 120px;
-	 border-radius: 120px;
-	 border: 3px solid #FFF;
-	 box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.3);
-	 }
-#fa_menulist {
-	 display: none;
-	 position: absolute;
-	 list-style-type: none;
-	 margin: 0px;
-	 padding: 0px 10px;
-	 background-color: #FFFFFF;
-	 min-width: 175px;
-	 width: auto;
-	 border: 1px solid #333333;
-	 line-height: 32px;
-	 border-top: 0px solid #FFFFFF;
-	 z-index: 10000;
-	 }
-#fa_menulist :link, #fa_menulist :visited {
-	 color: #00569C !important;
 	 }
