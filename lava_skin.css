@@ -259,7 +259,7 @@
 	 height: 30px;
 	 right: 18px;
 	 margin-top: -84px;
-	 background-color: #2c353b !important;
+	 background-color: #212121 !important;
 	 border-radius: 3px;
 	 z-index: 20002;
 	 top: 6px !important;
@@ -1243,7 +1243,7 @@ fieldset.submit-buttons input {
 	vertical-align: 1px;
 	}
 .rep-button, .rep-button:focus, .rep-button:active {
-	background-color: #2c353b;
+	background-color: #212121;
 	position: relative;
 	display: inline-block;
 	border: none;
@@ -1672,10 +1672,6 @@ ul.topiclist dd.dterm h2,ul.topiclist dt h2,.table-title,.table-title h2 {
 .forumbg {
 	margin-bottom: 24px;
 	clear: both;
-	background-color: #7b1414;
-	background-image: url("https://2img.net/i/fa/empty.gif");
-	background-repeat: repeat-x;
-	background-position: 0 0;
 	padding: 0;
 	border-radius: 3px;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
@@ -1701,7 +1697,8 @@ ul.topiclist {
 	margin: 0;
 	background-image: url("https://2img.net/i/fa/empty.gif");
 	background-repeat: repeat-x;
-	color: #444444;
+	color: #A5A5A5;
+	background-color:#212121;
 	 }
 ul.topiclist li {
 	display: block;
@@ -1717,7 +1714,7 @@ ul.forums li.row dl {
 ul.topiclist dt,ul.topiclist dd.dterm {
 	display: block;
 	float: left;
-	font-size: 1.3rem;
+	font-size: 15px;
 	padding: 18px;
 	 }
 ul.topiclist dfn {
@@ -1727,7 +1724,6 @@ ul.topics .row dt,ul.topics .row dd.dterm {
 	padding: 9px 18px 9px 81px;
 	display: block;
 	float: left;
-	width: 52%;
 	 }
 ul.topics dd {
 	display: block;
@@ -2005,8 +2001,8 @@ div.mes-txt ul {
 	border-radius: 120px;
 	border: 3px solid #FFF;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.3);
-	width: 120px;
-	height: 120px;
+	max-width: 200px;
+	max-height: 450px;
 	 }
 .postprofile-rank {
 	border-color: transparent;
@@ -2085,6 +2081,7 @@ dd.lastpost {
 	font-size: 1.3rem;
 	line-height: 20px;
 	padding: 18px !important;
+	width: 32%;
 	 }
 dd.lastpost a {
 	font-weight: 500;
@@ -2180,7 +2177,7 @@ span.rep-button.unregistered, span.rep-button.unregistered:active, span.rep-butt
 
 /* Table----------------------------------------------*/
 #cp-main table.table1 {
-	background-color: #2C353B;
+	background-color: #212121;
 	margin-bottom: 18px;
 	 }
 #cp-main table.table1 thead th {
@@ -2454,7 +2451,7 @@ dl.faq ol {
 	margin-top: 5px;
 	 }
 .pagination span a:link, .pagination span a:visited, .pagination span a:active {
-	background-color: #2C353B;
+	background-color: #212121;
 	color: #FFF;
 	border-radius: 3px;
 	display: inline-block;
@@ -2488,7 +2485,7 @@ dl.faq ol {
 	padding: 0 0 0 15px;
 	 }
 .row .pagination span a:link, .row .pagination span a:visited, .row .pagination span a:active {
-	background-color: #2C353B;
+	background-color: #212121;
 	color: #FFF;
 	line-height: 17px;
 	margin: 0 3px;
@@ -2721,14 +2718,14 @@ dl.faq ol {
 	display: none;
 	 }
 .btn-thank a:hover {
-	background-color: #2C353B;
+	background-color: #212121;
 	color: #F44336;
 	 }
 .btn-delete a:hover {
 	background-color: #F44336;
 	 }
 .btn-ip a:hover {
-	background-color: #2C353B;
+	background-color: #212121;
 	 }
 .btn-report a + a {
 	margin: 0 0 0 6px;
@@ -3075,7 +3072,7 @@ form#quick_reply #textarea_content iframe#text_editor_iframe {
     padding: 18px;
 	 }
 .module .h3 {
-    background-color: #2C353B;
+    background-color: #212121;
     border-bottom: none;
     border-radius: 0px 0px 0 0;
     color: #FFF;
@@ -3541,7 +3538,7 @@ display: -webkit-box;
 	padding: 0;
 	 }
 #calendar thead {
-	background-color: #2C353B;
+	background-color: #212121;
 	 }
 #calendar thead th {
 	line-height: 1;
@@ -4526,7 +4523,7 @@ dd.lastpost span.color-groups {
 	color: #D31141;
 	 }
 #page-footer {
-	background-color: #2C353B;
+	background-color: #212121;
 	 }
 .footerbar-system,.footerbar-user {
 	color: #FFF;
