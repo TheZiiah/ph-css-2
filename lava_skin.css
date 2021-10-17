@@ -1377,11 +1377,12 @@ fieldset.polls dd {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 450px;
     margin: 0;
     overflow: hidden;
     padding: 0;
     position: relative;
+    background-image: url(https://i.postimg.cc/Pq9x3HDQ/hollow-mask-platinumhearts-text.png);
 	 }
 #headerbar-top {
 	background-color: ff0000;
@@ -1482,12 +1483,14 @@ fieldset.polls dd {
 	margin: 25px 0 0;
 	 }
 .navbar a {
-	color: #FFF;
-	font-size: 1.3rem;
-	padding: 6px;
-	display: inline-block;
-	border-radius: 3px;
-	line-height: 1.3846;
+    color: #FFF;
+    font-size: 16px;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 3px;
+    line-height: 1.3846;
+    background-color: rgba(123,20,20,0.8);
+    margin-top: -20px;
 	 }
 .navbar a:hover {
 	background-color: #FFF;
