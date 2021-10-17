@@ -974,6 +974,7 @@ a.topictitle {
 	margin: -1px 0;
 	display: inline-block;
 	word-break: break-word;
+	max-width: 79px;
 	}
 .topic-title-container > img {
 	margin-right: 6px;
@@ -1645,7 +1646,7 @@ span.corners-top, span.corners-bottom {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
 	 }
 .forabg.hidden {
-	background-color: rgba(55, 147, 255, 0.6);
+	background-color: #214fc6;
 	 }
 .forabg.hidden .forums {
 	max-height: 0;
@@ -1699,6 +1700,7 @@ ul.topiclist {
 	background-repeat: repeat-x;
 	color: #A5A5A5;
 	background-color:#212121;
+	padding: 0px;
 	 }
 ul.topiclist li {
 	display: block;
@@ -1782,6 +1784,7 @@ ul.topiclist dd {
 	 }
 ul.topiclist li.header dl dd {
 	border: none;
+	width: 104px;
 	 }
 ul.topiclist dd.searchby span, ul.topiclist dd.info span, ul.topiclist dd.time span, dd.redirect span, dd.moderation span {
 	display: block;
@@ -1998,9 +2001,8 @@ div.mes-txt ul {
 	margin-bottom: 6px;
 	 }
 .postprofile-avatar img {
-	border-radius: 120px;
+	border-radius: 60px;
 	border: 3px solid #FFF;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.3);
 	max-width: 200px;
 	max-height: 450px;
 	 }
@@ -2529,6 +2531,7 @@ dl.faq ol {
     margin-left: 211px;
     padding: 12px 18px 18px;
     word-break: break-word;
+	overflow: hidden;
 	}
 .postbody .topic-title {
 	color: #444444;
@@ -2621,10 +2624,7 @@ dl.faq ol {
 	 }
 .post-head {
 	background-color: rgba(0, 0, 0, 0.03);
-	border-color: #3793FF;
-	border-radius: 3px 3px 0 0;
-	border-style: solid;
-	border-width: 0 0 1px;
+	border-style: solid 1px #7B1414;
 	padding: 18px;
 	 }
 .post-head .profile-icons {
@@ -4498,6 +4498,7 @@ dd.lastpost span.color-groups {
 	color: #FFF;
 	font-size: 1.3rem;
 	padding: 24px 0;
+	display:none;
 	 }
 .statistics strong {
 	font-weight: 400;
@@ -5281,6 +5282,7 @@ dl.file dd span {
 	 }
 ul.topiclist.bg_none {
 	background: none;
+	padding: 0px;
 	 }
 
 /* Tooltip */
