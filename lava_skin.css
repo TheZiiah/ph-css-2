@@ -5,7 +5,7 @@
     color: #FFF;
     font-family: Helvetica, Verdana, Arial;
     font-size: 16px;
-    height: 32px;
+    height: 42px;
     left: 0;
     z-index: 999;
 	 }
@@ -61,6 +61,7 @@
 	 margin-left: 20px;
 	 height: 36px;
 	 position: relative;
+	 display: none;
 	 }
 #fa_search form {
 	 margin: 0;
@@ -529,7 +530,7 @@ height: 1px;
     font-size: 1.3rem;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 24px 36px;
+    padding: 14px 36px;
     width: 98%;
 	}
 .wrap {
