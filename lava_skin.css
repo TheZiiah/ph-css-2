@@ -4065,7 +4065,6 @@ table.forumline {
 	border-collapse: collapse;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
 	height: 25px;
-	border-radius: 15px;
 	 }
 table.forumline td.catHead {
 	text-align: left;
@@ -4115,12 +4114,13 @@ form[name="go_page"] .row1 {
 /* Various-------------------------------------------------*/
 .row1 {
 	background-color: #ffffff;
+	padding: 5px;
 	 }
 .row2 {
-	background-color: #f8f8f8;
+	background-color: #ffffff;
 	 }
 .row3 {
-	background-color: #f0f0f0;
+	background-color: #ffffff;
 	 }
 
 .error {
