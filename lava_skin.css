@@ -4414,19 +4414,19 @@ input:disabled{
 	border-bottom: 1px solid #BCBCBC;
 	}
 .postlink {
-	color: #368AD2;
+	color: #7b1414;
 	border-bottom-color: #368AD2;
 	 }
 .postlink:visited {
-	color: #5D8FBD;
+	color: #7b1414;
 	border-bottom-color: #666666;
 	 }
 .postlink:active {
-	color: #368AD2;
+	color: #7b1414;
 	 }
 .postlink:hover {
 	background-color: #D0E4F6;
-	color: #0D4473;
+	color: #7b1414;
 	 }
 ul.topiclist li.row dt a.subforum,ul.topiclist li.row dd.dterm a.subforum {
 	background-image: none;
