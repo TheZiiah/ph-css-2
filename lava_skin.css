@@ -3,7 +3,7 @@
 
 /*New Forumlistings*/
 secondarytitle, .secondarytitle h2 {
-    color: #ffa34f;
+    color: #fff;
     margin: 0;
     padding: 0;
 	font-size:16px;
@@ -17,6 +17,9 @@ tr.toppy {
 	background-color: #ffffff;
 	 }
 .postdetails {
+	color: #020202;
+	 }
+.gensmall {
 	color: #020202;
 	 }
 
@@ -4055,14 +4058,14 @@ body.chatbox {
 /* Stats------------------------------------------------------------------------------------------*/
 table.forumline {
 	font-size: 12px;
-	background-color: #7b1414;
+	background-color: #212121;
 	padding: 0;
 	background-repeat: repeat-x;
 	background-position: 0 0;
 	border-collapse: collapse;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
 	height: 25px;
-	color: #fff;
+	border-radius: 15px;
 	 }
 table.forumline td.catHead {
 	text-align: left;
