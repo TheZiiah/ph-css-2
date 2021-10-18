@@ -1810,6 +1810,7 @@ li.row:hover dd {
 	 }
 .mod-text {
 	font-weight: 500;
+	color: #020202;
 	 }
 .hierarchy {
 	border: none;
@@ -4051,6 +4052,7 @@ table.forumline {
 	border-collapse: collapse;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
 	height: 25px;
+	color: #fff;
 	 }
 table.forumline td.catHead {
 	text-align: left;
@@ -4107,10 +4109,9 @@ form[name="go_page"] .row1 {
 .row3 {
 	background-color: #f0f0f0;
 	 }
-.row3Right
-{
+.row3Right {
 	background-color: #ffffff;
-}
+	 }
 .error {
 	background-color: #F44336;
 	color: #FFF;
