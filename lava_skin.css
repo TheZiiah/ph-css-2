@@ -1,5 +1,14 @@
 
 /*Forumotion - Desktop Theme--------------------------------------Version: 0.0.1*/ 
+
+/*New Forumlistings*/
+secondarytitle, .secondarytitle h2 {
+    color: #ffa34f;
+    margin: 0;
+    padding: 0;
+}
+
+/*Toolbar */
 #fa_toolbar {
     background-color: #7B1414;
     color: #FFF;
@@ -4033,14 +4042,15 @@ body.chatbox {
 
 /* Stats------------------------------------------------------------------------------------------*/
 table.forumline {
-	font-size: 1.3rem;
+	font-size: 18px;
 	background-color: #7b1414;
-	background-image: url("https://2img.net/i/fa/empty.gif");
+	background-image: url("https://i.postimg.cc/QCsTgLJL/px-by-Gre3g.png");
 	padding: 0;
 	background-repeat: repeat-x;
 	background-position: 0 0;
 	border-collapse: collapse;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+	height: 25px;
 	 }
 table.forumline td.catHead {
 	text-align: left;
@@ -7022,6 +7032,7 @@ div.navbar ul.linklist li.rightside strong a {
 	float: left;
 	padding: 11px 18px 11px 0;
 	position: relative;
+	display: none;
 	 }
 .lastpost-avatar img {
 	border-radius: 38px;
