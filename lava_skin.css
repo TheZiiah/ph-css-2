@@ -25,6 +25,17 @@ tr.toppytwo {
 .gensmall {
 	color: #020202;
 	 }
+table.forumlinefront {
+	font-size: 12px;
+	padding: 0;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	border-collapse: collapse;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+	height: 25px;
+	overflow: hidden;
+    border-radius: 15px;
+	 }
 
 /*Toolbar */
 #fa_toolbar {
@@ -4068,6 +4079,8 @@ table.forumline {
 	border-collapse: collapse;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
 	height: 25px;
+	overflow: hidden;
+    border-radius: 15px;
 	 }
 table.forumline td.catHead {
 	text-align: left;
