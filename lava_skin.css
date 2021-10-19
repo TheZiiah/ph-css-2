@@ -1842,6 +1842,7 @@ ul.topiclist dt,ul.topiclist dd.dterm {
 	float: left;
 	font-size: 15px;
 	padding: 18px;
+	width: 340px;
 	 }
 ul.topiclist dfn {
 	display: none;
