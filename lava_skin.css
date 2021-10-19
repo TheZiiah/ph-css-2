@@ -1840,9 +1840,9 @@ ul.forums li.row dl {
 ul.topiclist dt,ul.topiclist dd.dterm {
 	display: block;
 	float: left;
-	font-size: 15px;
+	font-size: 12px;
 	padding: 18px;
-	width: 340px;
+	width: 320px;
 	 }
 ul.topiclist dfn {
 	display: none;
@@ -2222,7 +2222,6 @@ dd.mark {
 dd.posts, dd.topics, dd.views {
 	font-size: 1.3rem;
 	text-align: center;
-	width: 8%;
 	 }
 dd.info {
 	width: 30%;
