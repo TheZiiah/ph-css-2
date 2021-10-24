@@ -1348,10 +1348,10 @@ fieldset.submit-buttons input {
 	 background-color: #F44336;
 	 }
 .rep-button.fa_disliked:hover, .rep-button.fa_disliked:focus {
-	 background-color: #FF5447;
+	 background-color: #FE433C;
 	 }
 .rep-button.fa_liked {
-	 background-color: #4CAF50;
+	 background-color: #0095EF;
 	 }
 .rep-button.fa_liked:hover, .rep-button.fa_liked:focus {
 	 background-color: #5EC061;
@@ -1368,14 +1368,14 @@ fieldset.submit-buttons input {
 	background-color: #212121;
 	position: relative;
 	display: inline-block;
-	border: none;
+	border: solid 1px #212121;
 	background: none;
 	outline: none;
 	margin: 6px 6px 0 0;
 	cursor: pointer;
 	padding: 4px 11px;
 	border-radius: 3px;
-	color: #FFF;
+	color: #212121;
 	font-family: inherit;
 	}
 .rep-button:hover {
