@@ -8737,6 +8737,7 @@ blockquote.fa_embed iframe {
 	width: fit-content;
 	margin-bottom: 5px;
 	padding: 10px 0;
+	visibility:hidden;
 	}
 .poster-list .poster {
 	cursor: pointer;
