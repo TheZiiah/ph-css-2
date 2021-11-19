@@ -1147,6 +1147,7 @@ input[type="text"],.inputbox {
 	cursor: text;
 	font-size: 1.2rem;
 	padding: 10px 0 9px;
+	 border-radius: 5px;
 	 }
 input[type="text"]:hover,.inputbox:hover {
 	border-bottom: 1px solid #7b1414;
@@ -1659,7 +1660,7 @@ ul.borderless {
 	position: relative;
 	 }
 .search-box input {
-	height: 35px;
+	height: auto;
 	padding-right: 35px;
 	 }
 .search-box button {
@@ -1669,6 +1670,7 @@ ul.borderless {
 	right: 0;
 	text-align: center;
 	width: 35px;
+	border:hidden;
 	 }
 #search-box {
 	margin-top: 10px;
@@ -2867,8 +2869,8 @@ dl.faq ol {
 #profile-advanced-left {
 	float: left;
 	margin-top: 24px;
-	padding-right: 24px;
-	width: 100%;
+	padding-right: 20px;
+	width: 98%;
 	 }
 #profile-advanced-left #tabs {
 	margin-top: 4px;
@@ -3008,7 +3010,7 @@ bottom: 0;
 	 }
 #profile-advanced-right {
 	float: right;
-	margin-top: 24px;
+	margin-top: -20px;
 	width: 300px;
 	 }
 #profile-advanced-add {
@@ -3228,7 +3230,7 @@ form#quick_reply #textarea_content iframe#text_editor_iframe {
 	 }
 .module h3 {
 	margin: 0.5em 0;
-	color: #444444;
+	color: #000000;
 	border-bottom: 1px solid #444444;
 	text-align: center;
 	 }
@@ -3257,8 +3259,6 @@ text-align: left;
 	border-radius: 120px;
 	border: 3px solid #FFF;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.3);
-	width: 120px;
-	height: 120px;
 	 }
 .mod-login-rank {
 	font-weight: 500;
