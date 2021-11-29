@@ -2656,7 +2656,8 @@ dl.faq ol {
     margin-left: 211px;
     padding: 12px 18px 18px;
     word-break: break-word;
-	overflow: scroll;
+	overflow: auto;
+	max-width:inherit;
 	}
 .postbody .topic-title {
 	color: #444444;
